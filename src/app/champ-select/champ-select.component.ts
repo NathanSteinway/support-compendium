@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './champ-select.component.html',
   styleUrl: './champ-select.component.css'
 })
+
 export class ChampSelectComponent {
 
 }
