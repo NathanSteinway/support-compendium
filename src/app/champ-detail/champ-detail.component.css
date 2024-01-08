@@ -1,0 +1,19 @@
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #007BFF; /* Blue border */
+    background-color: #000; /* Black background */
+    color: #FFF; /* White text */
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #007BFF; /* Glowing effect */
+}
+
+a:hover {
+    background-color: #007BFF; /* Blue background on hover */
+    color: #000; /* Black text on hover */
+    box-shadow: 0 0 15px #FFF; /* Increased glow effect on hover */
+}

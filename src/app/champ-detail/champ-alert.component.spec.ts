@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChampAlertComponent } from './champ-alert.component';
+import { ChampDetailComponent } from './champ-detail.component';
 
-describe('ChampAlertComponent', () => {
-  let component: ChampAlertComponent;
-  let fixture: ComponentFixture<ChampAlertComponent>;
+describe('ChampDetailComponent', () => {
+  let component: ChampDetailComponent;
+  let fixture: ComponentFixture<ChampDetailComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ChampAlertComponent]
+      imports: [ChampDetailComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ChampAlertComponent);
+    fixture = TestBed.createComponent(ChampDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
